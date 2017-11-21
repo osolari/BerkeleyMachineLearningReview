@@ -1,0 +1,58 @@
+BaseURL = "https://www.arresteddevops.com/"
+# BaseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Arrested DevOps"
+theme = "ado"
+canonifyurls = false
+buildFuture = false
+buildDrafts = false
+dataDir = "data"
+disqusShortname = "arresteddevops"
+archetypedir = "archetypes"
+paginate = 9
+
+[permalinks]
+	page = "/:filename/"
+	about = "/:filename/"
+	episode = "/:filename/"
+	sponsor = "/:filename"
+	redirect = "/:filename"
+
+[params]
+Facebook = "//facebook.com/Arresteddevops"
+GATracker = "UA-45939822-1"
+Twitter = "//twitter.com/arresteddevops"
+Description = "Arrested DevOps is hosted by Matt Stratton, Trevor Hess, and Bridget Kromhout. ADO is the podcast that helps you achieve understanding, develop good practices, and operate your team and organization for maximum DevOps awesomeness."
+	[params.social]
+		github = "arresteddevops"
+		facebook = "Arresteddevops"
+		facebook_admin = "500557137"  # This needs to be a page admin to get domain insights
+		twitter = "arresteddevops"
+		twitter_domain = "arresteddevops.com" # This domain shows in twitter cards as "View on `twitter_domain`"
+		googleplus = "ArrestedDevOps"
+		pinterest = "nozzleio"
+		instagram = "nozzleio"
+		youtube = "arresteddevops"
+		linkedin = "nozzleio"
+	[params.authors]
+	  [params.authors.Matt]
+			name	= "Matt Stratton"
+			thumbnail = "https://www.arresteddevops.com/img/matt.png"
+			bio = "Matt Stratton is a solutions architect at Chef, where he demonstrates how Chef’s automation platform provides speed and flexibility to clients’ infrastructure. He is devoted to concepts like Continuous Delivery and Infrastructure as Code, and his license plate actually says “DevOps”. He lives in Chicago and has an unhealthy obsession with Doctor Who, Firefly, and Game of Thrones. And whiskey."
+			[params.authors.Matt.social]
+				github = "mattstratton"
+				facebook = "matt.stratton"
+				twitter = "mattstratton"
+				linkedin = "mattstratton"
+		[params.authors.Trevor]
+			name = "Trevor Hess"
+			thumbnail = "https://www.arresteddevops.com/img/trevor.png"
+			bio = ""
+				[params.authors.Trevor.social]
+					twitter = "trevorghess"
+			[params.authors.Bridget]
+				name = "Bridget Kromhout"
+				thumbnail = "https://www.arresteddevops.com/img/Bridget.png"
+				bio = ""
+				[params.authors.Bridget.social]
+					twitter = "bridgetkromhout"
