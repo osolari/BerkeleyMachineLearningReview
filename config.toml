@@ -1,13 +1,13 @@
-BaseURL = "https://www.arresteddevops.com/"
+BaseURL = ""
 # BaseURL = "http://localhost:1313/"
 languageCode = "en-us"
-title = "Arrested DevOps"
+title = "Machine Learning Review"
 theme = "ado"
 canonifyurls = false
 buildFuture = false
 buildDrafts = false
 dataDir = "data"
-disqusShortname = "arresteddevops"
+disqusShortname = "machinelearningreview"
 archetypedir = "archetypes"
 paginate = 9
 
@@ -22,7 +22,7 @@ paginate = 9
 Facebook = "//facebook.com/Arresteddevops"
 GATracker = "UA-45939822-1"
 Twitter = "//twitter.com/arresteddevops"
-Description = "Arrested DevOps is hosted by Matt Stratton, Trevor Hess, and Bridget Kromhout. ADO is the podcast that helps you achieve understanding, develop good practices, and operate your team and organization for maximum DevOps awesomeness."
+Description = "Machine Learning Review is hosted by Omid Shams Solari. MLR is aimed to facilitate the flow of information from researchers in the field of AI and Machine Learning to their audience by providing context for published research. Machine Learning and more generally Data Science is part science, part craft, and craft is transferrable only through the researcher's personal subjective narrative. MLR is attaching that narrative back to the publications."
 	[params.social]
 		github = "arresteddevops"
 		facebook = "Arresteddevops"
@@ -34,25 +34,3 @@ Description = "Arrested DevOps is hosted by Matt Stratton, Trevor Hess, and Brid
 		instagram = "nozzleio"
 		youtube = "arresteddevops"
 		linkedin = "nozzleio"
-	[params.authors]
-	  [params.authors.Matt]
-			name	= "Matt Stratton"
-			thumbnail = "https://www.arresteddevops.com/img/matt.png"
-			bio = "Matt Stratton is a solutions architect at Chef, where he demonstrates how Chef’s automation platform provides speed and flexibility to clients’ infrastructure. He is devoted to concepts like Continuous Delivery and Infrastructure as Code, and his license plate actually says “DevOps”. He lives in Chicago and has an unhealthy obsession with Doctor Who, Firefly, and Game of Thrones. And whiskey."
-			[params.authors.Matt.social]
-				github = "mattstratton"
-				facebook = "matt.stratton"
-				twitter = "mattstratton"
-				linkedin = "mattstratton"
-		[params.authors.Trevor]
-			name = "Trevor Hess"
-			thumbnail = "https://www.arresteddevops.com/img/trevor.png"
-			bio = ""
-				[params.authors.Trevor.social]
-					twitter = "trevorghess"
-			[params.authors.Bridget]
-				name = "Bridget Kromhout"
-				thumbnail = "https://www.arresteddevops.com/img/Bridget.png"
-				bio = ""
-				[params.authors.Bridget.social]
-					twitter = "bridgetkromhout"
